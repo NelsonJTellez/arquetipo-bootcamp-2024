@@ -4,12 +4,17 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.math.BigDecimal;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.math.BigDecimal;
 
 @AllArgsConstructor
 @Getter
-public class AddProductRequest {
+public class AddTechnologyRequest {
+
+    private final  String Id;
     private final String name;
-    private final BigDecimal price;
-    private final Long quantity;
-    private final Long supplierId;
+    private final String description;
+
 }

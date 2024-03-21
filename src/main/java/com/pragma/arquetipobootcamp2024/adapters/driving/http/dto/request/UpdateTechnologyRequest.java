@@ -5,7 +5,9 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class AddSupplierRequest {
-    private final String  name;
-    private final String contactNumber;
+public class UpdateTechnologyRequest {
+    private final Long Id;
+    private final String name;
+    private  final  String description;
+
 }
