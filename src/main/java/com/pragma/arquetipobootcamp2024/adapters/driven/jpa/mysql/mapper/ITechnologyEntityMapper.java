@@ -3,7 +3,7 @@ package com.pragma.arquetipobootcamp2024.adapters.driven.jpa.mysql.mapper;
 import com.pragma.arquetipobootcamp2024.adapters.driven.jpa.mysql.entity.TechnologyEntity;
 import com.pragma.arquetipobootcamp2024.domain.model.Technology;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
+
 
 import java.util.List;
 

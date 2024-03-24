@@ -5,6 +5,7 @@ import com.pragma.arquetipobootcamp2024.adapters.driven.jpa.mysql.exception.NoDa
 import com.pragma.arquetipobootcamp2024.adapters.driven.jpa.mysql.exception.TechnologyAlreadyExistsException;
 import com.pragma.arquetipobootcamp2024.configuration.Constants;
 import com.pragma.arquetipobootcamp2024.domain.exception.EmptyFieldException;
+import com.pragma.arquetipobootcamp2024.domain.exception.NegativeNotAllowedException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
